@@ -1,0 +1,31 @@
+{
+  "name": "dnafactory/module-catalog-utils",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+      "dnafactory/core": "*"
+  },
+  "license": [
+  ],
+  "authors": [
+    {
+      "name": "DNAFactory SRL",
+      "email": "info@dnafactory.it",
+      "role": "Owner"
+    },
+    {
+      "name": "Luigi Ambra",
+      "email": "luigi.ambra@dnafactory.it",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "DNAFactory\\CatalogUtils\\": ""
+    }
+  }
+}
+
